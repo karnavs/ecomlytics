@@ -1,0 +1,34 @@
+Ecomlytics_Project/
+├── analytics/
+│   ├── __init__.py
+│   └── metrics.py
+├── data/
+│   ├── customers.csv
+│   ├── orders.csv
+│   └── products.csv
+├── database/
+│   └── schema.sql
+├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── favicon.svg
+│   ├── pages/
+│   │   ├── sales.html
+│   │   ├── products.html
+│   │   ├── customers.html
+│   │   ├── retention.html
+│   │   └── insights.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── app.js
+├── insights/
+│   ├── __init__.py
+│   └── engine.py
+├── tests/
+│   └── test_metrics.py
+├── app.py
+├── requirements.txt
+├── README.md
+├── PROJECT_STRUCTURE.txt
+└── .gitignore

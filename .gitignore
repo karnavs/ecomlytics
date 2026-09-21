@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+data/app.db
+data/.token_key
+data/token_store.db

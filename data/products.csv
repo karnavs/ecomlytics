@@ -1,0 +1,16 @@
+product_id,product_name,category,price,cost,views,add_to_cart,checkout,units_sold,returns,rating
+P001,Premium Hoodie,Fashion,2499,1300,52400,1850,1100,942,31,3.2
+P002,Running Shoes,Footwear,3999,2100,38952,6535,4418,2678,47,4.4
+P003,Wireless Earbuds,Electronics,2999,1500,15358,2263,1422,670,28,3.8
+P004,Smart Watch,Electronics,5499,3200,18976,3160,1862,1281,33,4.2
+P005,Cotton T-Shirt,Fashion,999,420,41462,8520,5475,3288,88,4.1
+P006,Denim Jacket,Fashion,2799,1450,12212,1869,900,500,18,3.9
+P007,Laptop Backpack,Accessories,1799,850,25055,5687,3453,1972,33,4.5
+P008,Bluetooth Speaker,Electronics,2299,1200,23270,3310,2023,1279,59,3.7
+P009,Sunglasses,Accessories,1499,600,24403,2574,1309,794,47,4.0
+P010,Sports Track Pants,Fashion,1599,700,29850,5982,4006,2245,43,4.3
+P011,Face Serum,Beauty,1299,500,21482,3629,2253,1501,60,4.2
+P012,Moisturizer,Beauty,899,350,32857,6719,4112,2611,50,4.4
+P013,Coffee Maker,Home,3499,1900,20748,3094,1815,849,42,4.1
+P014,Air Fryer,Home,5999,3500,35502,7492,4328,2758,95,4.5
+P015,Yoga Mat,Fitness,1199,450,32971,4885,2412,1280,71,3.9

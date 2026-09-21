@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sign in | Ecomlytics</title><link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.svg"></head>
+<body>
+<div class="login-page">
+ <div class="login-shell">
+  <section class="login-brand">
+   <div class="login-logo"><div class="mark">E</div>Ecomlytics</div>
+   <h1>Make better<br><span>e-commerce decisions.</span></h1>
+   <p>Turn fragmented store data into clear metrics, actionable insights and business decisions — all in one intelligent analytics platform.</p>
+   <div class="login-points">
+    <div class="login-point"><b>✓</b> Product and sales intelligence</div>
+    <div class="login-point"><b>✓</b> Customer and retention analytics</div>
+    <div class="login-point"><b>✓</b> Automated business insights</div>
+   </div>
+  </section>
+  <section class="login-form">
+   <h2>Welcome back</h2>
+   <p class="sub">Sign in to access your Ecomlytics workspace.</p>
+   <form id="loginForm">
+    <div class="field"><label>Email address</label><input id="email" type="email" placeholder="you@company.com" required></div>
+    <div class="field"><label>Password</label><input id="password" type="password" placeholder="Enter your password" required><div id="error" class="error">Please enter your email and password.</div></div>
+    <div class="login-options"><label class="remember"><input type="checkbox"> Remember me</label><a href="#" onclick="alert('Password reset flow can be connected here.');return false;">Forgot password?</a></div>
+    <button class="btn login-btn" type="submit">Sign in to Ecomlytics</button>
+   </form>
+   <div class="demo">Demo mode: any valid email + any password will open the analytics workspace.</div>
+   <div class="login-foot">© 2026 Ecomlytics · E-commerce Product Intelligence Platform</div>
+  </section>
+ </div>
+</div>
+<script>
+document.getElementById("loginForm").addEventListener("submit",function(e){
+ e.preventDefault();
+ const email=document.getElementById("email").value.trim(), password=document.getElementById("password").value;
+ const err=document.getElementById("error");
+ if(!email || !password){err.style.display="block";return}
+ localStorage.setItem("ecomlytics_user",email);
+ window.location.href="index.html";
+});
+</script>
+</body></html>
